@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>systematic livestock information website</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/b.css" />
+    <link rel="stylesheet" href="../css/fish.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- nav bar  -->
+    <header class="container shadow-lg">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg px-5 fixed-top bg-light shadow-lg">
+          <div>
+            <h4 id="navbar-brand-text" class="text-success font-weight-bold">
+              systematic livestock information website
+            </h4>
+          </div>
+
+          <button
+            class="navbar-toggler btn-navbar-toggler-style"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              class="navbar-toggler-icon"
+              id="navbar-toggler-icon-style"
+            ></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link smooth-scroll" href="../index.html#home"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#service">Services</a>
+              </li>
+          
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="../pages/gallery.html">gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Animals
+                </a>
+                <div class="dropdown-menu text-light text-uppercase" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="../pages/chicken.html">chicken</a>
+                  <a class="dropdown-item" href="../pages/pig.html">pig</a>
+                  <a class="dropdown-item" href="../pages/fish.html">fish</a>
+                  <a class="dropdown-item" href="../pages/duck.html">duck</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#customer" class="nav-link">About us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- home section  -->
+    <div class="container-fluid">
+      <div
+        class="row justify-content-center align-items-center bg-light  home"
+      >
+        <div class="col-4">
+          <h3 class="text-primary font-weight-bold">ငါးမွေးမြူနည်း          </h3>
+          <p class="text-dark text-justify" style="line-height:30px;">
+            ငါးများကိုရောစပ်မွေးမြူနည်း အစားကျွေးနည်း ကန်တည်ဆောက်ပုံတိုကိုတစ်နေရာတည်းတွင်လေ့လာနိုင်ပါသည်။
+          </p>
+          <a href="#fish-breed" class="btn btn-outline-primary">GET START</a>
+        </div>
+        <div class="col-8">
+          <div class="row">
+            <div class="col-4">
+              <div class="card fish-card shadow-lg">
+                <img src="../img/fish-home.jpg" class="w-100 h-100" alt="" />
+              </div>
+            </div>
+            <div class="col-4 mt-5">
+              <div class="card fish-card shadow-lg">
+                <img src="../img/fish-home4.webp" class="w-100 h-100" alt="" />
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card fish-card shadow-lg">
+                <img src="../img/fish-home2.jpg" class="w-100 h-100" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fish species  -->
+    <div class="container mt-3 py-5" id="fish-breed">
+      <h2
+        class="fa-3x text-light text-center font-weight-bold mb-5 pb-3"
+        style="text-decoration: underline"
+      >
+        ငါးမျိုးစိတ်များ
+      </h2>
+      <div class="swiper mySwiper my-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card specie-card bg-dark border-0">
+              <img src="../img/kakatit.png" class="w-100" alt="" />
+              <div class="card-footer text-center p-1">
+                <p class="f card-title p-0 text-light">၁။ ကကတစ်</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card specie-card bg-dark border-0">
+              <img src="../img/fishtype1(ngatalot).png" class="w-100" alt="" />
+              <div class="card-footer text-center p-1">
+                <p class="f card-title p-1 text-light">၂။ ငါးသလောက်</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card specie-card bg-dark border-0">
+              <img src="../img/fishtype2(ngakhu).png" class="w-100" alt="" />
+              <div class="card-footer text-center p-1">
+                <p class="f card-title p-1 text-light">၃။ ငါးခူ</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card specie-card bg-dark border-0">
+              <img
+                src="../img/fishtype3(ngazinyine).png"
+                class="w-100"
+                alt=""
+              />
+              <div class="card-footer text-center p-1">
+                <p class="f card-title p-1 text-light">၄။ ငါးဇင်ရိုင်း</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card specie-card bg-dark border-0">
+              <img
+                src="../img/fishtype4(ngaphalkone).png"
+                class="w-100"
+                alt=""
+              />
+              <div class="card-footer text-center p-1">
+                <p class="f card-title p-1 text-light">၅။ ငါးဖယ်ခုံး</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card specie-card bg-dark border-0">
+              <img
+                src="../img/fishtype5(ngayintkyar).png"
+                class="w-100"
+                alt=""
+              />
+              <div class="card-footer text-center p-1">
+                <p class="f card-title p-1 text-light">၆။ ငါးရံ့ကျား</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card specie-card bg-dark border-0">
+              <img src="../img/fishtype6(ngapanaw).jpeg" class="w-100" alt="" />
+              <div class="card-footer text-center p-1">
+                <p class="f card-title p-1 text-light">၇။ ငါးပနော်</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+    <!-- fish house  -->
+    <div class="container-fluid house bg-light" id="fish-build">
+      <div class="row align-items-center house-content">
+        <div class="col-12">
+          <h3
+            class="text-dark font-weight-bold text-center mb-5 pb-4"
+            style="text-decoration: underline"
+          >
+            ငါးမွေးမြူရေးကန်တည်ဆောက်နည်း
+          </h3>
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-6">
+              <div class="card house-card mb-5">
+                <img src="../img/fishhouse1.jpg" class="w-100" alt="" />
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card house-card mb-5">
+                <img src="../img/fishhouse2.jpg" class="w-100" alt="" />
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card house-card my-4">
+                <img src="../img/fishhouse3.jpg" class="w-100" alt="" />
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card house-card my-4">
+                <img src="../img/fishhouse4.jpg" class="w-100" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <p class="text-dark">
+            ကန်သစ်တူးခြင်းနှင့် ကန်ပုံစံ ၊ ကန်ဘောင်အချိုးအစား
+          </p>
+          <p class="text-dark">
+            မြေနေရာရွေးချယ်ပြီး ငါးမွေးမြူရန် ကန်တူးဖေါ်ရပါမည်။
+            ငါးလုပ်ငန်းဦးစီးဌာန ငါးမွေးမြူရေးဥပဒေတွင် မိသားစုတစ်ပိုင်
+            တစ်နိုင်မွေးမြူနိုင်ရန်အတွက် ပေ (၅၀ x ၂၅) ထက် မကျော်လွန်သော
+            ရေပြင်တွင်ငါးမွေးမြူခြင်းကို လိုင်စင်ကင်းလွတ် ခွင့်ပြုထားပါသည်။
+            ထိုကြောင့် (၅၀ x ၂၅) ပေ ထက် ရေပြင်မကျယ်သော ငါးမွေးကန်အား
+            တူးဖေါ်စေလိုပါသည်။
+          </p>
+          <p class="text-dark">(၁)ပန္ဒက်ရိုက် မှတ်သားပါ။</p>
+          <p class="text-dark">
+            (၂) အကျယ်၏ အပြင်ဘက် ပတ်ပတ်လည် (၂) ပေခွာတွင်၊ ကန်ဖိနပ်အတွက်
+            ထပ်မံပန္ဒက်ရိုက်ပါ။
+          </p>
+          <p class="text-dark">
+            (၃) ပေ(၅၀) x (၂၅) ပန္ဒက်တွင်းမှ မြေကိုတူးပြီး ကန်ဖိနပ်အတွက်ထားသော
+            (၂)ပေ အကျယ်၏ အပြင်ဘက်သို မြေဖိုပေးပါ။ ကန်ဘောင်ပြုလုပ်ခြင်းဖြစ်ပါသည်။
+          </p>
+          <p class="text-dark">
+            (၄) ကန်ဘောင်ပြုလုပ်ရာတွင်၊ ကန်ဘောင်၏ လျှောစောက် (ခြေဆင်း)
+            ကိုအောက်ပါအတိုင်း ပြုလုပ်ရမည်။ ကန်ဘောင်၏ လျှောစောက် (ခြေဆင်း) သည်
+            မတ်စောက်မှုလိုပါက (၁:၁) အတိုင်းဆောင်ရွက်ရမည်။
+          </p>
+          <p class="text-dark">
+            ၅) ကန်၏အနက်သည် အနည်းဆုံး (၃) ပေ တူးဖေါ်ရမည်။ အများဆုံး (၄)ပေ
+            ထက်မကျော်စေရပါ။ ကန်၏အနက်ကို တူးဖေါ်ရာတွင် ရေသွယ်မြောင်း၏
+            ရေဝင်ရောက်မှု အမြင့်ဆုံး နှင့် အနိမ့်ဆုံးအခြေနေကိုမှန်းဆပြီး
+            ဒေသအခေါ် ရေချိန်ချပြီ တူးဖေါ်လျှင် အကောင်းဆုံးဖြစ်ပါသည်။
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- develop fish  -->
+    <div class="container-fluid develop">
+      <div class="row p-3 align-items-start justify-content-center">
+        <div class="col-12 mb-2">
+          <h3 class="text-light text-center font-weight-bold mb-4" style="text-decoration: underline;">မွေးမြူနည်း</h3>
+          <h5 class="text-light text-center fa-1x">အစာကုန်ကျမှုသက်သာစေပြီး စီးပွားရေးအရတွက်ခြေကိုက်သော ရေချိုငါးများကိုရောစပ်မွေးမြူနည်း</h5>
+        </div>
+        <div class="col-10 text-justify">
+          <div class="page">
+            <div class="marge"></div>
+            <p>ရေချိုငါးများကိုစီးပွားဖြစ်မွေးမြူရာတွင် ငါးတစ်မျိုးတည်းမွေးမြူခြင်းထက် ရော၍ မွေးမြူခြင်းက ပိုမိုကောင်းမွန်ပေသည်။ အဘယ်ကြောင့်ဆိုသော် ငါးတစ်မျိုးက မစားနိုင်သဖြင့် ကျန်ခဲ့သောအစာသည် အလဟဿ ဖြစ်မသွားဘဲ အခြားငါးတစ်မျိုးကစားသုံးမည်ဖြစ်ပါသည်။</p>
+            <p>ောနှောမွေးမြူရာတွင်လည်း တစ်မျိုးနှင့်တစ်မျိုး ရန်မမူသောငါးမျိုးများကိုရော၍ မွေးမြူ နိုင်သလို အစားဓလေ့မတူညီသောငါးများနှင့် မတူညီသောနေရာများတွင် စားသောက်လေ့ရှိသော ငါးများ ကိုလည်း ရောနှော၍မွေးမြူသင့်၏။ နိုင်ငံအသီးသီးတွင် ရေမြေဒေသပတ်ဝန်းကျင်အလိုက် ရောနှော မွေးမြူခြင်းများ တူညီကြမည်မဟုတ်ပါ။</p>
+            <p>
+              မြန်မာနိုင်ငံတွင်မူ အများဆုံးရောစပ်မွေးမြူလေ့ရှိသည့် ငါးများမှာ ငါးကြင်း၊ ငါးမြစ်ချင်း (ငါးမျက်ဆန်နီ) နှင့် ငါးသိုင်းခေါင်းပွ(ငါးခေါင်းပွ)တို ဖြစ်ကြသည်။</p>
+              <p>ငါးများကို အမျိုးအစားအလိုက် ကန်တွင်း၌ရောနှော မွေးမြူလိုလျှင် အချိုးအစားမှာ-</p>
+              <p>ါးကောင်ရေ ၁၀၀ မွေးလျှင်
+              </p>
+              <p>ငါးမြစ်ချင်း(ငါးမျက်ဆန်နီ)- ၃၀ ကောင်</p>
+              <p>ငါးသိုင်းခေါင်းပွ(ငါးခေါင်းပွ)- ၃၀ ကောင်</p>
+              <p>ငါးကြင်း - ၄၀ ကောင်နှုန်းထား၍ မွေးရပါသည်။ အချိုးအစားမှာ ၃:၃:၄ ဖြစ်ပါသည်။</p>
+              <p>ငါးများကို ရောစပ်မွေးမြူလျှင် ၁ဧကကျယ်သောကန်တွင် ငါးကောင်ရေ ၃၀၀၀ မွေးမြူပါက အကောင်းဆုံးဖြစ် သည်။</p>
+              <p>တစ်ဧကရှိသည့်ကန်တွင် ထည့်ရမည့်ငါးကောင်ရေ ၃၀၀၀ တွင်</p>
+              <p>ငါးမြစ်ချင်း(ငါးမျက်ဆန်နီ)- ၂၂၀၀ ကောင်</p>
+              <p>ငါးကြင်း - ၆၀၀ ကောင်</p>
+              <p>ငါးသိုင်းခေါင်းပွ(ငါးခေါင်းပွ)- ၂၀၀ ကောင်ကို ရောစပ်၍လည်း မွေးကြ၏။</p>
+              <p>ေပေါ်တွင်ကျက်စားလေ့ရှိသော ငါးသိုင်းခေါင်းပွ (ငါးခေါင်းပွ)ကို အဓိကထား ဦးစားပေး မွေးမြူလိုပါက ၄င်းငါးကို ကောင်ရေများများထည့်ပြီး ကျန်ငါးများကိုလျော့နည်းထည့် နိုင်ပါသည်။</p>
+              <p>ရေအောက်ငါးအဖြစ် ရွှေဝါငါးကြင်း၊ငါးကြင်းဖြူ၊ ရေလယ်ငါးအဖြစ် ငါးမြစ်ချင်း၊ရေပေါ်ငါးအဖြစ် တီလားပီးယားဟုသတ်မှတ်ပြီးမွေးမြူကြပါသည်။ တီလားပီးယားငါးသည် ရေပေါ်သာမက ရေလယ် ရေအောက်၌လည်း ကျက်စားတတ် ပါသည်။ ထိုကဲ့သို ရေအလွှာမျိုးစုံ၌ ကျက်စားတတ်သဖြင့် အကျိုးအမြတ်ရှိသည်။</p>
+              <p>အထက်မြန်မာပြည်၌ တီလားပီးယားငါးနှင့် ရောစပ် မွေးမြူသောကန်ကို တစ်ဖက်စောင်းတူး ထားကြပါသည်။ ဆိုလိုသည်မှာ တစ်ဖက်သို ဆင်ခြေလျှောတူးပြီး ရေတစ်ဖက်အနက်မှာ ၆ပေ ရှိလျှင် ရေတစ်ဖက် အနက်မှာ ၄ပေ သာရှိပါ သည်။
+
+                ကန်ပေါင်၏အောက်ခြေမှာ ၂၅ ပေကျယ်၍ ၅ပေအမြင့်ထိပ်သို တဖြည်းဖြည်းစု၍ ဖိုထားသည်။ ကန်ပေါင်ထိပ်အကျယ်မှာ ၁၀ ပေသာ ရှိပါသည်။
+                
+                ထိုကန်အတွင်းတွင် ရွှေဝါငါးကြင်း၊ ငါးကြင်းဖြူ၊ ငါးမြစ်ချင်း၊ ငါးသိုင်းနှင့် တီလားပီးယားငါးတို ရောစပ်၍ မွေးမြူခြင်း ဖြစ်ပါသည်။
+                
+                ဒေသအခြေအနေ ရေမြေအနေအထားအလိုက် ကြီးထွားနှုန်းကိုလေ့လာပြီး သင့်သလိုအချိုးအစား ထည့်၍ မွေးမြူရပါသည်။</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- food section  -->
+    <div class="container-fluid food " id="fish-feed">
+      <div class="row vh-100 bg-light align-content-center food1" style="padding: 120px 30px 100px 30px;">
+        <div class="col-7 text-justify">
+          <h3 class="text-dark font-weight-bold mb-3">ငါးစာစနစ်တကျကျွေးခြင်း</h3>
+          <p class="text-dark">ရေပေါ်ငါးဖြစ်သော ငါးသိုင်းခေါင်းပွ (ငါးခေါင်းပွ)ငါးကို ဦးစားပေးမွေးသော ကန်များ၌ ရေလယ်တွင်ဝါးတိုင်များကို စိုက်ထားရပါမည်။ဝါးတိုင်များကို နိုင်လွန်ကြိုးဖြင့် တန်းထားပါ။
+            သင့်လျော်သည့် အကွာအဝေးတိုင်းတွင် ဝါးခြင်းကြား ကလေးများကို ရက်၍ သိုမဟုတ် အစဥ်အမြဲသုံးနိုင်ရန် ပလတ်စတစ်ခြင်းကလေးများကို ကြိုးတန်းတွင်ကြိုးဖြင့် ဆွဲထားပါ။
+            ကန်၏ ရေမျက်နှာပြင် အောက် ၁ ပေခွဲခန့်အထိ ကြိုးအရှည် ရှိရပါမည်။ ငါးများကို အစာကျွေးချိန်တွင် ငါး၏အစာများဖြစ်သော ဖွဲနု၊ပဲဖတ်၊ နှမ်းဖတ်များကို လှေဖြင့်သယ်ယူပြီး ထိုခြင်းကလေးများအတွင်းသို ထည့်၍ ကျွေးမွေးနိုင်ပါသည်။
+            ဖွဲနုကိုပါထည့်ကျွေးလျှင် ဆန်ကွဲများမပါရန် အထူးသတိပြုပါ။ဆန်ကွဲများသည် ရေအောက်သိုရောက်လျှင် ပုပ်ပြီး ကန်မသန့်မရှင်း ဖြစ်တတ်ပါသည်။ ရေမသန့်ရှင်းမှုကြောင့် ငါးများသေကြေပျက်စီးနိုင်ပါသည်။</p>
+        </div>
+        <div class="col-5">
+          <div class="card p-2">
+            <img src="../img/fishfood.jpg" class="w-100" alt="">
+          </div>
+         
+        </div>
+        <div class="col-12 text-justify">
+          <p class="text-dark">ှင်းမှုကြောင့် ငါးများသေကြေပျက်စီးနိုင်ပါသည်။
+            ဤသိုသောနည်းဖြင့်ကျွေးလျှင် ပထမဆုံး ရေပေါ်တွင် ကျက်စားလေ့ရှိသော ငါးသိုင်းခေါင်းပွ(ငါးခေါင်းပွ)များက ခြင်းဘေးမှဝိုင်းပတ်ပြီး အစာကိုစုပ်ယူစားကြပါလိမ့်မည်။
+            စားနေစဥ်အတွင်း အစာအချိုမှာ ရေအောက်သို တဖြည်းဖြည်းကျသွားပါမည်။ ကျသွားသော အစာများကိုသာ ရေလယ်မှ အနည်းစုမွေးမြူထားသည့် ငါးများဖြစ် သော ငါးမြစ်ချင်းနှင့် ရေအောက်မှငါးကြင်းတိုက စားကြရပါသည်။
+            ရေလယ်ငါးဖြစ်သော ငါးမြစ်ချင်း(ငါးမျက်ဆန်နီ)ကို ဦးစားပေး၍ ကောင်ရေများများထည့်ပြီး ငါးသိုင်းခေါင်းပွ(ငါးခေါင်းပွ)နှင့် ငါးကြင်းတိုက စားကြရပါသည်။ ရေလယ်ငါး မစားနိုင်ဘဲ ပိုသောအစာကို ရေအောက်ငါးများကစားနိုင်ပါသည်။
+            ရေအောက်ငါးဖြစ်သော ငါးကြင်းကို ဦးစားပေး၍ ကောင်ရေများများထည့်ကာ မွေးမြူသောကန်များတွင်မူ ဤကဲ့သို ခြင်းထဲသိုထည့်၍ အစာကျွေးနေရန် မလိုတော့ပါ။</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- health  -->
+    <div class="container-fluid health mt-4 " id="fish-health">
+      <div class="row  py-5 align-items-start">
+        <div class="col-4 text-center">
+          <h3 class="text-center text-light font-weight-bold mb-4 mt-4
+          " style="line-height: 45px;">ရာသီမရွေးဖြစ်ပွားတတ်သော ငါးကပ်ပါးရောဂါ
+          </h3>
+          <img src="../img/fishhealth-jpeg.jpeg" class="w-100" alt="">
+
+        </div>
+        <div class="col-4">
+          <div class="card card-health">
+            <div class="card-body">
+              <h3 class="card-title mb-3">ရောဂါလက္ခဏာများ</h3>
+              <p>- ကျောရိုးဆူးတောင် အောက်ခြေတွင် အဖြူလွှာပိတ်လာခြင်း၊
+
+              </p>
+              <p>- အရေပြားထိုးဖောက်၍ သွေးစုပ်ခြင်းကြောင့် တစ်သျှူးများ ရောင်ယမ်းခြင်း၊
+
+              </p>
+              <p>- အကျိအချွဲများထွက်ခြင်း၊
+
+              </p>
+              <p>- ငါးများ၏ အရေပြားပေါ်တွင် အနီစက်များ တွေ့ရခြင်း၊
+
+              </p>
+              <p>- အနာများ ဖြစ်လာခြင်း၊
+
+              </p>
+              <p>- ယားယံသည့်ဝေဒနာ ခံစားရသည့်အတွက် အချွဲစစ်ထုတ်မှုများလာပြီး အားအင်ကုန်ခမ်းလာခြင်းတို့ ဖြစ်တတ်ပါသည်။
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card card-health">
+            <div class="card-body">
+              <h3 class="mb-3">ဖြစ်ပွားနိုင်သော ငါးအမျိုးအစား</h3>
+              <p>တီလားပီးယား၊ ငါးရံ့ ၊ငါးခူ ၊ ငါးကြင်းငါးသိုင်းအုပ်စု၊ ငါးတီး
+
+              </p>
+              <h3 class="mb-3">ကာကွယ်ခြင်းနှင့် ကုသခြင်း
+
+              </h3>
+              <p>- ကန်ရေအား မကြာခဏ လဲလှယ်ပေးခြင်း၊
+
+              </p>
+              <p>- ဥများတွယ်ကပ်နိုင်သည့် ရေနေအပင်များအား မကြာခဏ ဖယ်ရှားစေခြင်း၊
+
+              </p>
+              <p>- ရောဂါကျရောက်​နေသော ငါးများကို 5ppm KMnO4   3-5 min ခန့် စိမ်ပေးခြင်းဖြင့် ရောဂါသက်သာစေနိုင်ပါသည်။     
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-footer bg-primary text-white" style="margin-top: 4rem;">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-8 col-md-6">
+            <div class="row gx-5">
+              <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                <h4 class="text-white mb-4">Get In Touch</h4>
+                <div class="d-flex mb-2">
+                  <i class="bi bi-geo-alt text-white me-2"></i>
+                  <p class="text-white mb-0">10th street, Maubin, Myanmar</p>
+                </div>
+                <div class="d-flex mb-2">
+                  <i class="bi bi-envelope-open text-white me-2"></i>
+                  <p class="text-white mb-0">livestockfarm343@gmail.com</p>
+                </div>
+                <div class="d-flex mb-2">
+                  <i class="bi bi-telephone text-white me-2"></i>
+                  <p class="text-white mb-0">+012 345 67890</p>
+                </div>
+                <div class="d-flex mt-4">
+                  <a
+                    class="btn btn-secondary btn-square rounded mr-2"
+                    href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-secondary btn-square rounded mr-2"
+                    href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="btn btn-secondary btn-square rounded mr-2"
+                    href=""
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a
+                    class="btn btn-secondary btn-square rounded"
+                    href=""
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                <h4 class="text-white mb-4">Quick Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                  <a class="text-white mb-2" href="../index.html#home"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Home</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#customer"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>About
+                    Us</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#service"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Our
+                    Services</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#team"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Meet The
+                    Team</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#benefit"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Latest
+                    Blog</a
+                  >
+                  <a class="text-white" href="../index.html#contact"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Contact
+                    Us</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                <h4 class="text-white mb-4">Popular Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                  <a class="text-white mb-2" href="../index.html#home"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Home</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#customer"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>About
+                    Us</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#service"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Our
+                    Services</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#team"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Meet The
+                    Team</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#benefit"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Latest
+                    Blog</a
+                  >
+                  <a class="text-white" href="../index.html#contact"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Contact
+                    Us</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-lg-n5">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-dark p-5"
+            >
+              <h4 class="text-white">Newsletter</h4>
+              <h6 class="text-white">Subscribe Our Newsletter</h6>
+              <p>Amet justo diam dolor rebum lorem sit stet sea justo kasd</p>
+              <form action="">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control border-white p-3"
+                    placeholder="Your Email"
+                  />
+                  <button class="btn btn-primary">Sign Up</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../vendor/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+          delay: 2000,
+        },
+        // Enable debugger
+        debugger: true,
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+      });
+
+    
+    </script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+/*------------navigation------------------------*/
+navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+#navbar-brand-text {
+  color: green;
+  padding: 0;
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.navbar .navbar-brand {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navbar-nav .nav-item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.nav-link {
+  font-weight: bold;
+  color: #645139 !important;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item:focus .nav-link,
+.navbar-dark .nav-item:hover .nav-link {
+  color: #4caf50;
+}
+
+.btn-navbar-toggler-style:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#Chicken:checked #home ~ .home {
+  display: none !important;
+}
+
+/* PADDING */
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-item {
+    padding: 50px 0;
+    border-bottom: 3px solid green;
+  }
+  .navbar-collapse.collapsing,
+  .navbar-collapse.show {
+    padding-top: 10px;
+  }
+}
+
+/* .navbar .navbar-nav .nav-link::after{
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #645139;
+  transition: width 0.3s;
+}
+
+.navbar .navbar-nav .nav-link:hover::after{
+  width: 100%;
+  height: 2px;
+  background-color: #645139;
+  transition: width 0.3s;
+  border: 2px solid #645139;
+} */

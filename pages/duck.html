@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> systematic livestock information website</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="../css/duck.css" />
+    <link rel="stylesheet" href="../css/b.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+  </head>
+  <body>
+    <!-----------------Navigation section------------------------>
+    <header class="container shadow-lg">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg px-5 fixed-top bg-light shadow-lg">
+          <div>
+            <h4 id="navbar-brand-text" class="text-success font-weight-bold">
+              systematic livestock information website
+            </h4>
+          </div>
+
+          <button
+            class="navbar-toggler btn-navbar-toggler-style"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              class="navbar-toggler-icon"
+              id="navbar-toggler-icon-style"
+            ></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link smooth-scroll" href="../index.html#home"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#service">Services</a>
+              </li>
+          
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="../pages/gallery.html">gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Animals
+                </a>
+                <div class="dropdown-menu text-light text-uppercase" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="../pages/chicken.html">chicken</a>
+                  <a class="dropdown-item" href="../pages/pig.html">pig</a>
+                  <a class="dropdown-item" href="../pages/fish.html">fish</a>
+                  <a class="dropdown-item" href="../pages/duck.html">duck</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#customer" class="nav-link">About us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Navbar -->
+    <!---duck intro section-->
+    <div class="container my-5">
+      <div class="row duck-home my-4">
+        <div class="col-7 duck-left p-5">
+          <div class="overlay-home"></div>
+          <div class="home-content">
+            <h1 class="pb-2 fa-2x font-weight-bold pb-1 text-light">
+              ဘဲမွေးမြူနည်း
+            </h1>
+            <p class="text-white pb-3">
+              ဘဲမွေးမြူရေးသမား များအတွက် ဘဲခြံတည်ဆောက်နည်း၊မွေးမြူနည်းနှင့် ရောဂါများကုသနည်းများကိုလေ့လာနိုင်ပါသည်။
+
+            </p>
+            <a href="#duck-breed" class="btn btn-outline-light">Get Start</a>
+          </div>
+        </div>
+        <div class="col-5 justify-content-center align-items-center duck-right">
+          <div class="card-container mb-5">
+            <div class="card-1">
+              <img src="../img/whiteduck.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- specie section  -->
+    <div class="container mb-5 species" id="duck-breed">
+      <div class="row bg-dark p-5 justify-content-center">
+        <div class="col-12">
+          <h1 class="text-white text-uppercase text-center mb-5">
+            <span class="text-primary">duck</span> species
+          </h1>
+        </div>
+        <div class="col-4">
+          <div class="spec-card mb-5">
+            <img src="../img/canvas.jpg" />
+            <h5 style="text-decoration: none;font-weight: bold;">Species 1</h5>
+            <h3>canavss</h3>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="spec-card mb-5">
+            <img src="../img/mallard.jpg" />
+            <h5 style="text-decoration: none;font-weight: bold;">Species 2</h5>
+            <h3>Mallard</h3>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="spec-card mb-5">
+            <img src="../img/marbled.jpg" />
+            <h5 style="text-decoration: none;font-weight: bold;">Species 3</h5>
+            <h3>Marbled</h3>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="spec-card mb-5">
+            <img src="../img/alabio.jpg" />
+            <h5 style="text-decoration: none;font-weight: bold;">Species 4</h5>
+            <h3>alabio</h3>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="spec-card mb-5">
+            <img src="../img/dometic2.jpg" />
+            <h5 style="text-decoration: none;font-weight: bold;">Species 5</h5>
+            <h3>Dometics</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- build house  -->
+    <div class="container mb-5 house" id="duck-build">
+      <div class="row bg-primary p-5 align-items-center">
+        <div class="col-4">
+          <img
+            src="../img/duckhouse4.jpg"
+            class="w-100"
+            height="280px"
+            alt=""
+          />
+        </div>
+        <div class="col-8">
+          <h5 class="text-black-50 font-weight-bold">
+            ဘဲမွေးမြူရန် မြေနေရာရွေးချယ်ခြင်း
+          </h5>
+          <p class="text-white text-light text-justify">
+            သဲဆန်သောမြေမှာ ဘဲမွေးမြူရေးအတွက် သင့်တော်ပြီး
+            ဆင်ခြေလျှောကုန်းမြင့်နှင့် ရေစီးနေသော ရေကန်၊ ချောင်းနှင့်
+            လွှတ်ကျောင်းနိုင်သော မြက်ခင်းများရှိလျှင်
+            ပို၍သင့်တော်သည်။ရေကန်ရွေးချယ်ရာတွင် အဆက်မပြတ်စီးနေသော ရေရှင်
+            နေရာမျိုးဖြစ်ရန်လိုအပ်သည်။မြစ်ချောင်းနံဘေးတွင် မွေးမြူမည်ဆိုပါက
+            ချောင်းသည်အနံ ၉ပေ၊ ရေအနက် ၂ပေခန့်ရှိလျှင် လုံလောက်၍
+            ရေစီးနှုန်းအသင့်အတင့်ဖြစ်လျှင် သင့်တော်သည်။ရေကန်တူး၍ မွေးမြူလျှင်
+            အကျယ် ၅ပေ ပတ်လည်နှင့် အနက်၁နှစ်ပိုင်းတစ်ပိုင်းပေရှိလျှင်
+            ဘဲ(၁၀၀)ကောင် မွေးမြူနိုင်သည်။ရေကန်အား ၂ပတ်တစ်ကြိမ် ရေလဲလှယ်ပေးရန်
+            လိုအပ်ပြီး ရေကန်ပတ်လည်တွင် သစ်ပင်ရိပ်များရှိရန် လိုအပ်သည်။
+            သစ်ပင်ရိပ်မရှိလျှင် ယာယီအရိပ်တဲဆောက်ပေးရန် လိုအပ်သည်။ ဘဲအတက်အဆင်း
+            လွယ်ကူရန် ရေကန်နှုတ်ခမ်းကို ဆင်ခြေလျှော လုပ်ထားရမည်။
+          </p>
+        </div>
+        <div class="col-8">
+          <h5 class="font-weight-bold text-black-50">
+            ဘဲမွေးမြူရန် အဆောက်အဦဆောက်လုပ်ခြင်း
+          </h5>
+          <p class="text-white text-light text-justify">
+            ဒေသထွက် သစ်၊ ဝါးများဖြင့် ဆောက်လုပ်နိုင်ပြီး ဘဲခြံများ
+            အလင်းရောင်ကောင်းစွာရပြီး လေဝင်လေထွက်ကောင်းရန်
+            လိုအပ်သည်။&nbsp;-အခင်းမှာ သဲခင်းပေးလျှင် ပို၍ကောင်းမွန်သည်။
+            (ကောက်ရိုး၊
+            စပါးခွံများကိုလည်းအသုံးပြုနိုင်)&nbsp;-အခင်းများညစ်ပေလျှင် မကြာခဏ
+            လဲလှယ်ပေးရမည်။ အဆောက်အဦ အကျယ်အဝန်းလိုအပ်ချက် ဘဲငယ်တစ်ကောင်=၁/၂ - ၁
+            စတုရန်းပေ&nbsp;ဘဲလတ်=၂ - ၂ ၁/၂ စတုရန်းပေ၊ဘဲကြီး=၃ - ၄
+            စတုရန်း‌‌ေပအဆောက်အဦးပုံစံ
+            အဆောက်အဦအလျား၁၂ပေ၊အဆောက်အဦအနံ၈ပေ၊ဒေါက်တိုင်အမြင့်၁၄ပေ၊လက်ခံတိုင်အမြင့်၆‌ေပ၊ဒူးပိတ်
+            - ဝါးထရံ၁ပေအမြင့်အကာ - ဝါးခြမ်း။
+          </p>
+        </div>
+        <div class="col-4">
+          <img src="../img/duckhouse.jpg" class="w-100" height="280px" alt="" />
+        </div>
+        <div class="col-12">
+          <p class="text-justify text-light">
+            <span class="text-dark font-weight-bold text-black-50" style="text-decoration: underline;"
+              >အစာခွက် ရေခွက် လိုအပ်ချက်</span
+            ><br />
+            ဥဘဲမ(၃၀)ကောင်အတွက် ၁နှစ်ပိုင်းတစ်ပိုင်းပေ × ၂နှစ်ပိုင်းတစ်ပိုင်းပေ
+            အစာခွက် (၂)ခု၊ရေခွက် - အချင်း ၁နှစ်ပိုင်းတစ်ပိုင်း ပေ
+            ဇလုံ(၁)လုံး။မှတ်ချက်။အစာခွက်နှင့် ရေခွက်ကို
+            နီးကပ်စွာထားပြီးရေခွက်ကို မကြာခဏ လဲလှယ်ပေးရန် လိုအပ်သည်။ ဘဲဥကျင်း
+            ဥဘဲမကြီး(၈)ကောင် - ဥကျင်းတစ်ကျင်းနှုန်းထားရန်၊ဥကျင်းကို စပါးခွံ၊
+            ကောက်ရိုးခင်းထားရန် လိုအပ်သည်။
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- food section  -->
+    <div class="container mb-5 food" id="duck-feed">
+      <div class="row bg-dark">
+        <div class="col-7 p-5">
+          <h5 class="text-primary">
+            ဘဲငယ်များအတွက် အာဟာရပြည့်ဝစေသည့် အစာကျွေးနည်း
+          </h5>
+          <ul class="text-white">
+            <li>
+              ၁။ ဘဲငယ်များကို အစာကျွေးရာတွင် အစာနု(အစို/အခြောက်)ကို တစ်နေ့ ၄
+              ကြိမ်မှ ၆ ကြိမ်ထိ ကျွေးသင့်ပါသည်။ ဥမှပေါက်ပြီး ရက်သတ္တ ၂ ပတ်ထိ
+              ဤသို့ကျွေးသင့်ပါသည်။
+            </li>
+            <li>
+              ၂။ ၂ ပတ်သားကျော်လာလျှင် အစာကျွေးချိန်တဖြည်းဖြည်း
+              လျှော့သွားသင့်ပါသည်။တဖြည်းဖြည်း တစ်နေ့လျှင် ၂ကြိမ်ထိ
+              ကျွေးသည့်စနစ်ရောက်အောင် လျှော့ချသွားသင့်ပါသည်။
+            </li>
+            <li>
+              ၃။ ဘဲငယ်စာတွင် ပရိုတင်း ၁၇% ၊ ဗီတာမင်ဘီ-၂ ၊ မဂ္ဂနိစ် နှင့်
+              သတ္တုဓာတ်တို့လည်း ပိုမိုလိုအပ်ပါသည်။
+            </li>
+          </ul>
+        </div>
+        <div class="col-5 food-right"></div>
+      </div>
+
+      <div class="row bg-primary flex-row-reverse mt-5">
+        <div class="col-7 p-3">
+          <h5 class="text-dark font-weight-bold">
+            ဘဲများအတွက်လိုအပ်သော အာဟာရဓာတ်များမှာ -
+          </h5>
+          <ul class="text-white">
+            <li>
+              <span class="font-weight-bold text-light">၁။ ပရိုတင်းဓာတ် </span><br />
+              အာဟာရဓာတ်များအနေဖြင့် ဘဲငယ် ၃ ပတ်သားမတိုင်မီတွင် ပရိုတင်းဓာတ်သည်
+              အစာ ၏ ၁၇% လိုအပ်သော်လည်း ၃ ပတ်သားထက်ကြီးလာလျှင် ၁၅ % သာ
+              လိုအပ်ပါသည်။
+            </li>
+
+            <li>
+              <span class="font-weight-bold text-light">၂။ ဗီတာမင်အေဓာတ် </span><br />
+              ဗီတာမင်အေဓာတ်သည် ဘဲငယ် ၃ ပတ်သားအတွက် ၂၀၀၀ ယူနစ်လိုအပ်မည်ဖြစ်ပြီး
+              မျိုးဘဲများအတွက်ဆို ၃၀၀၀ ယူနစ်လိုအပ်မည်ဖြစ်သည်။
+            </li>
+
+            <li>
+              <span class="font-weight-bold text-light">၃။ ကယ်လ်စီယမ်ဓာတ် </span><br />
+              ကယ်လ်စီယမ်ဓာတ်အနေဖြင့် ဘဲငယ်များအတွက် ၁%၊ မျိုးဘဲများအတွက်ဆို ၂.၅%
+              ခန့် လိုအပ်ပါသည်။
+            </li>
+
+            <li>
+              <span class="font-weight-bold text-light">၄။ သတ္တုဓာတ် </span><br />
+              သတ္တုဓာတ်(မီးစုန်းဓာတ်)ကိုမူ ဘဲငယ်အစာတွင် ၁.၆%၊
+              မျိုးဘဲများအတွက်ဆို ၁.၈% ခန့် လိုအပ်ပါသည်။
+            </li>
+
+            <li>
+              <span class="font-weight-bold text-light">၅။ ဗီတာမင်ဘီဓာတ် </span><br />
+              ဗီတာမင်ဘီကို ၃ ပတ်သားအောက်ဘဲငယ်များအတွက် အပုံတစ်သန်းလျှင် ၄ ပုံ၊
+              (၃) ပတ်အထက် ၆၀ ပုံ၊ မျိုးဘဲ များအတွက် ၄၀ ပုံလိုအပ်ပါသည်။
+            </li>
+          </ul>
+        </div>
+        <div class="col-5 food-right1"></div>
+      </div>
+    </div>
+
+    <!--health-->
+    <div class="container mb-5 health" id="duck-health">
+      <div class="row  bg-dark p-5 align-items-end">
+        <div class="col-12">
+          <h3 class="text-center text-light font-weight-bold mb-5">ဘဲများတွင်ဖြစ်ပွားလေ့ရှိသောရောဂါများ</h3>
+        </div>
+        <div class="col-4">
+          <img src="../img/duckill.jpg" class="w-100" height="300px" alt="" />
+          <h6 class="text-primary mt-3">၁။ ဝမ်းကျရောဂါ</h6>
+          <p class="text-light text-justify">
+            ဝမ်းကျရောဂါဖြစ်ပွားပါက အသားများအလွန်ပူခြင်း၊ ဒူးဆစ်ရိုးရောင်ခြင်း၊
+            အသေမြန်ခြင်း စသည့် လက္ခဏာများ တွေ့ရတတ်သည်။ <br /><br /><span
+              class="text-primary"
+              >ကြိုတင်ကာကွယ်ရန်မှာမူ -</span
+            >
+            ဘဲများအတွက် ဝမ်းရောဂါကာကွယ်ဆေးထိုး၍ ကာကွယ်နိုင်သည်။
+            ရောဂါဖြစ်ပွားနေပါက – ဆာလ်ဖိုနဖိုက်ဆေးများ တိုက်ကျွေးရပါမည်။<br />
+            <br /><span class="text-primary">ရောဂါဖြစ်ပွားပါက -</span>
+            (နိုက်ထရိုဖျူရာဇုန်း)ဆေး တိုက်ကျွေးသင့်သည်။
+          </p>
+        </div>
+        <div class="col-4">
+          <h6 class="text-primary">၂။ ပါရာတိုက်ဖွိုက်ရောဂါ</h6>
+          <p class="text-light text-justify">
+            ဆဲလ်မိုနီးလားရောဂါပိုး တစ်မျိုးကြောင့် ဖြစ်ပွားရခြင်းဖြစ်သည်။
+            အထူးသဖြင့် ဘဲငယ်များတွင် ဖြစ်ပွားတတ်သည်။ ရောဂါဖြစ်ပွားပါက
+            အအေးမိသကဲ့သို့ အသက်ရှူကျပ်ခြင်း၊ တဖြည်းဖြည်းပိန်လာပြီး သေဆုံးခြင်း၊
+            မှောက်၍ သေးဆုံးနေခြင်း စသည့် လက္ခဏာများ တွေ့ရသည်။<br /><br />
+            <span class="text-primary MT-2">ကြိုတင်ကာကွယ်ရန်မှာ - </span
+            >မွေးမြူရာတွင် ပတ်ဝန်းကျင်သန့်ရှင်းရေး ဂရုစိုက်ရမည်။ <br />
+            <br /><span class="text-primary">ရောဂါဖြစ်ပွားပါက -</span>
+            (နိုက်ထရိုဖျူရာဇုန်း)ဆေး တိုက်ကျွေးသင့်သည်။
+          </p>
+          <img src="../img/duckill2.jpg" class="w-100" height="300px" alt="" />
+        </div>
+        <div class="col-4">
+          <img src="../img/duckill3.jpg" class="img-fluid" alt="" />
+          <h6 class="text-primary mt-3">၃။ သွက်ချာပါဒရော</h6>
+          <p class="text-light text-justify">
+            ဘက်တီးရီးယားရောဂါပိုးကြောင့် ဖြစ်ပွားရခြင်းဖြစ်သည်။ ရောဂါဖြစ်ပွားပါက
+            ခြေထောက်များဆွဲနေပြီး ကိုယ်ခန္ဓာမဟန်နိုင်ခြင်း၊ ခြေထောက်များ
+            ယက်ကန်ယက်ကန်ဖြစ်နေခြင်း၊ မစင်စွန့်ရာတွင် အစိမ်းရောင်၊
+            အဖြူရောင်များတွေ့ရခြင်း စသည့် လက္ခဏာများ တွေ့ရသည်။ <br><br> <span class="text-primary">ကာကွယ်ရန်မှာ -</span>
+            အာဟာရဓါတ်ပြည့်ဝသော အစာများကျွေးခြင်း၊ ပတ်ဝန်းကျင်သန့်ရှင်းပြီး
+            လေကောင်းလေသန့်အမြဲရရှိစေရန် ဆောင်ရွက်ထားသင့်သည်။ <br> <br> <span class="text-primary">ရောဂါဖြစ်ပွားပါက –</span>
+            ဘဲများကို (၆)နာရီခန့် အစာမကျွေးဘဲထားပြီး ဆာလ်ဖိုနဖိုက်ဆေး
+            တိုက်ကျွေးရပါမည်။
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- medicine  -->
+    <div class="container mb-5 medicine">
+      <div class="row flex-row-reverse">
+        <div class="col-8">
+          <div class="row bg-dark py-5">
+            <div class="col-12 mb-5 font-weight-bold">
+              <h3 class="text-center text-light">ဘဲများတွင် ဖြစ်ပွားတတ်သော အခြားရောဂါများအတွက် ဆေးမြီးတိုကုတုံး</h3>
+            </div>
+            <div class="col-12 mb-5">
+              <img src="../img/waterplant.jpg" width="100px" class="inline-block d-inline-block mr-4" height="100px" alt="">
+              <p class=" d-inline-block text-light"><span class="text-primary font-weight-bold">(က) အအေးမိရောဂါ  - </span>ရေမှော်ပင်အား အစာတွင် ထည့်ကျွေးပါ။ </p>
+            </div>
+            <div class="col-12 mb-5 mb-5">
+              <img src="../img/kanyut.jpg" width="100px" class="inline-block d-inline-block mr-4" height="100px" alt="">
+              <p class=" d-inline-block text-light"><span class="text-primary font-weight-bold">(ခ) ချောင်းဆိးရောဂါ  -</span> ကညွတ်ပင်အားထောင်း၍ အရည်အနည်းငယ် တိုက်ပေးပါ။</p>
+            </div>
+            <div class="col-12 mb-5">
+              <img src="../img/baybay.jpg" width="100px" class="inline-block d-inline-block mr-4" height="100px" alt="">
+              <p class=" d-inline-block text-light"><span class="text-primary font-weight-bold">(ဂ) သွေးဝမ်းရောဂါ  - </span>ဗေဒါပင်စင်း၍ ကျွေးပါ။</p>
+            </div>
+            <div class="col-12 mb-5">
+              <img src="../img/water.jpg" width="100px" class="inline-block d-inline-block mr-4" height="100px" alt="">
+              <p class=" d-inline-block text-light"><span class="text-primary font-weight-bold">(ဃ) အပူနာရောဂါ  -</span> ဘဲကိုရေချခြင်း၊ ရေပက်ခြင်းပြုလုပ်ပါ။ </p>
+            </div>
+            <div class="col-12">
+              <img src="../img/sarker.jpg" width="100px" class="inline-block d-inline-block mr-4" height="100px" alt="">
+              <p class=" d-inline-block text-light"><span class="text-primary font-weight-bold">(င) ဝမ်းချုပ်ရောဂါ  - </span> ဆားခါးကို ရေဖြင့် ဖျော်တိုက်ပါ။</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 bg-primary py-3">
+          <img src="../img/duclseparate.jpg" class="w-100" alt="">
+          <p style="text-indent: 3em;" class="text-light font-weight-bold text-justify mt-4">ရောဂါကူးစက်ပြန့်ပွားမှုမရှိစေရန် ရောဂါဖြစ်ပွားနေသော ဘဲများကို အခြားဘဲများနှင့် ရောမထားဘဲ ချက်ချင်းခွဲထုတ်၍ သီးခြားထားရပါမည်။ ဤသို့ မပြုလုပ်ပါက ရောဂါများကူးစက်ပြန့်ပွားပြီး ဆုံးရှုံးမှုများကို ဖြစ်စေနိုင်သည်။ ရောဂါဖြစ်ပွားသည့် ဘဲ သေဆုံးသွားခြင်း(သို့) ကုသ၍ မရတေ့ာလောက်အောင် ရောဂါဆိုးရွာလာလျှင် တွင်းနက်နက်တူးပြီး မြေမြုပ်သင့်ပါသည်။</p>
+          <p style="text-indent: 3em;" class="text-light font-weight-bold text-justify mt-4"> ကျန်းမာသန်စွမ်းမှုမရှိဘဲ ချည့်နဲ့နေသော ဘဲများကိုလည်း အခြားဘဲများနှင့်အတူ ရောနှော၍ မထားသင့်ဘဲ စောစီးစွာ ဖယ်ထုတ်သင့်ပါသည်။ </p>
+          <p style="text-indent: 3em;" class="text-light font-weight-bold text-justify mt-4">      ဘဲများမှာ အစာရှာစားရင်း သံတိုသံစ ကဲ့သို့သော တွေ့ရာပစ္စည်းကိုလည်း မျိုချလေ့ရှိကြသည်။ ထို့ကြောင့် မွေးမြူရေးခြံအနီး ပတ်ဝန်းကျင်တွင် သံတိုသံစကဲ့သို့သော ပစ္စည်းများကို ရံဖန်ရံခါ ဖယ်ရှားသင့်သည်။</p>
+          <p style="text-indent: 3em;" class="text-light font-weight-bold text-justify mt-4">  ဘဲထီးအင်္ဂါသည် သွက်ချာပါဒဖြစ်ခြင်း၊ ဘဲမများတွင် ဥအိမ်အဝထွက်လာခြင်းတို့သည် မကြာခဏတွေ့ရတတ်သည့် ရောဂါများဖြစ်သည်။ ထို့ပြင် ဝမ်းဗိုက်ထဲတွင် ရေများစု၍ တွဲကျနေသည့်ရောဂါများလည်း ကြုံတွေ့ရတတ်သည်။ ဤရောဂါမျိုးမှာ မျိုးရိုးမှတဆင့် ကူးစက်တတ်သောကြောင့် အထူးဂရုစိုက်သင့်ပါသည်။ </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="container-fluid bg-footer bg-primary text-white" style="margin-top: 4rem;">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-8 col-md-6">
+            <div class="row gx-5">
+              <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                <h4 class="text-white mb-4">Get In Touch</h4>
+                <div class="d-flex mb-2">
+                  <i class="bi bi-geo-alt text-white me-2"></i>
+                  <p class="text-white mb-0">10th street, Maubin, Myanmar</p>
+                </div>
+                <div class="d-flex mb-2">
+                  <i class="bi bi-envelope-open text-white me-2"></i>
+                  <p class="text-white mb-0">livestockfarm343@gmail.com</p>
+                </div>
+                <div class="d-flex mb-2">
+                  <i class="bi bi-telephone text-white me-2"></i>
+                  <p class="text-white mb-0">+012 345 67890</p>
+                </div>
+                <div class="d-flex mt-4">
+                  <a
+                    class="btn btn-secondary btn-square rounded mr-2"
+                    href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-secondary btn-square rounded mr-2"
+                    href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="btn btn-secondary btn-square rounded mr-2"
+                    href=""
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a
+                    class="btn btn-secondary btn-square rounded"
+                    href=""
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                <h4 class="text-white mb-4">Quick Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                  <a class="text-white mb-2" href="../index.html#home"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Home</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#customer"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>About
+                    Us</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#service"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Our
+                    Services</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#team"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Meet The
+                    Team</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#benefit"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Latest
+                    Blog</a
+                  >
+                  <a class="text-white" href="../index.html#contact"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Contact
+                    Us</a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                <h4 class="text-white mb-4">Popular Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                  <a class="text-white mb-2" href="../index.html#home"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Home</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#customer"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>About
+                    Us</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#service"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Our
+                    Services</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#team"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Meet The
+                    Team</a
+                  >
+                  <a class="text-white mb-2" href="../index.html#benefit"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Latest
+                    Blog</a
+                  >
+                  <a class="text-white" href="../index.html#contact"
+                    ><i class="bi bi-arrow-right text-white me-2"></i>Contact
+                    Us</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-lg-n5">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-dark p-5"
+            >
+              <h4 class="text-white">Newsletter</h4>
+              <h6 class="text-white">Subscribe Our Newsletter</h6>
+              <p>Amet justo diam dolor rebum lorem sit stet sea justo kasd</p>
+              <form action="">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control border-white p-3"
+                    placeholder="Your Email"
+                  />
+                  <button class="btn btn-primary">Sign Up</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../vendor/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+  scroll-behavior: smooth;
+}
+
+/*-----------------------------global----------------------------*/
+body{
+  background-color: #f3f3f3!important;
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ea6f18;
+  border-radius: 100px;
+}
+p {
+  letter-spacing: 1.5px;
+  line-height: 2em;
+  font-size: 18px;
+}
+
+.section-header,
+.health-title {
+  position: relative;
+}
+
+.section-header::after,
+.health-title::after {
+  position: absolute;
+  content: "";
+  height: 12px;
+  opacity: 0.7;
+  /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+  bottom: -8px;
+
+  /****** 
+ optional values below 
+ ******/
+
+  /* center - (optional) use with adjusting width   */
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 20%;
+  background: #ea6f18;
+
+  /* optional animation */
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transform: skew(30deg);
+  transition: 0.5s;
+}
+
+.section-header:hover:after,
+.health-title:hover:after {
+  width: 40%;
+  background: #ea6f18;
+  opacity: 0.5;
+}
+
+/*_____________________________Chicken home________________________________*/
+
+.chicken-home{
+  position: relative;
+  height: 100vh;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/stripe-pattern.png');
+}
+
+.chicken-left{
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/319606/stripe-pattern.png')!important;
+
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.chicken-right{
+  position: relative;
+  height: 100%;
+  background-image: url("../img/treebg.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  /* background-repeat: no-repeat; */
+}
+
+.overlay-home{
+  background-color: #343a40;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.home-content{
+  z-index: 10;
+  width: 60%;
+}
+
+.home-content h1{
+  color: #fff;
+  margin-bottom: 30px;
+  line-height: 50px;
+}
+
+.home-content p{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/*-----------------------------------Chicken intro-------------------*/
+.card-container{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  z-index: 100;
+  transform: translateX(-280px);
+}
+.card-1,.card-2{
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card-1{
+  box-shadow: 10px 10px 24px hsla(0, 0%, 0%, 0.502);
+}
+.card-1 img{
+  width: 100%;
+  height: 100%;
+
+}
+.card-2{
+  position: absolute;
+  top: 0;
+  transform: translate(0,0);
+  background-color: #567782;
+  transition: 0.5s;
+  z-index: -34;
+}
+.chicken:hover .card-2{
+  transform: translate(25px,25px);
+  box-shadow: 10px 10px 24px #00000080;
+}
+
+/*------------------ingredient section-----------*/
+.ingredient-move{
+  margin-top: 100px;
+}
+
+.ingredient-section{
+  height: 200px;
+}
+.ingredient-move .card{
+  transition: background-color 0.5s;
+}
+.ingredient-move .card:hover{
+  background-color: #28a745;
+}
+
+/* -----------------------------------------chicken how to grow */
+
+
+.chicken-card {
+  width: auto !important;
+  height: 300px !important;
+  overflow: hidden;
+}
+
+.change-layout {
+  width: 300px!important;
+  z-index: 100;
+  transform: translate(40px, 40px);
+  transition: all 0.5s;
+}
+.chicken-home:hover .change-layout {
+  transform: translate(0);
+  background-color: #343a40 !important;
+}
+
+.chicken-layout-card{
+  overflow: hidden;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.chicken-layout-card img{
+  width: 400px;
+  height: 400px;
+}
+
+/* .text-label{
+    font-size: 20px;
+    color: green;
+} */
+
+/* carosel */
+/* .carousel-inner{
+  height: 400px;
+} */
+
+/*------------------------------------------ health section  */
+.health-section{
+  background-image: url("../img/bg-3.svg");
+  background-size: cover;
+  background-color: #333;
+}
+
+#news-slider {
+  margin-top: 80px;
+}
+
+.post-slide {
+  background: #fff;
+  margin: 20px 15px 20px;
+  border-radius: 15px;
+  padding-top: 1px;
+  box-shadow: 5px 5px 20px -10px #000000;
+}
+
+.post-slide .post-img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: -12px 15px 8px 15px;
+  margin-left: -10px;
+}
+
+.post-slide .post-img img {
+  width: auto;
+  height: 200px;
+  transform: scale(1, 1);
+  transition: transform 0.2s linear;
+}
+
+.post-slide:hover .post-img img {
+  transform: scale(1.1, 1.1);
+}
+
+.post-slide .over-layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: linear-gradient(
+    -45deg,
+    #52453599 0%,
+    #52453599 100%
+  );
+  transition: all 0.5s linear;
+}
+
+.post-slide:hover .over-layer {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.post-slide .over-layer i {
+  position: relative;
+  top: 45%;
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: 25px;
+}
+
+.post-slide .post-content {
+  background: #fff;
+  padding: 2px 20px 40px;
+  border-radius: 15px;
+}
+
+.post-slide .post-title a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.post-slide .post-title a:hover {
+  text-decoration: none;
+  color: #524535;
+}
+
+.post-slide .post-description {
+  line-height: 24px;
+  color: #808080;
+  margin-bottom: 25px;
+  height: 230px;
+}
+
+.post-slide .post-date {
+  color: #a9a9a9;
+  font-size: 14px;
+}
+
+.post-slide .post-date i {
+  font-size: 20px;
+  margin-right: 8px;
+  color: #cfdace;
+}
+
+.post-slide .read-more {
+  padding: 7px 20px;
+  float: right;
+  font-size: 12px;
+  background: #524535;
+  color: #ffffff;
+  box-shadow: 0px 5px 20px -10px #524535;
+  border: none;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.post-slide .read-more:hover {
+  background: #4c4235;
+  text-decoration: none;
+  color: #fff;
+}
+
+.owl-controls .owl-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-controls .owl-buttons .owl-prev {
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: -13%;
+  left: 15px;
+  padding: 0 18px 0 15px;
+  border-radius: 50px;
+  box-shadow: 3px 14px 25px -10px #92b4d0;
+  transition: background 0.5s ease 0s;
+}
+
+.owl-controls .owl-buttons .owl-next {
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: -13%;
+  right: 15px;
+  padding: 0 15px 0 18px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 20px #92b4d0;
+  transition: background 0.5s ease 0s;
+}
+
+.owl-controls .owl-buttons .owl-prev:after,
+.owl-controls .owl-buttons .owl-next:after {
+  content: "\f104";
+  font-family: FontAwesome;
+  color: #333;
+  font-size: 30px;
+}
+
+.owl-controls .owl-buttons .owl-next:after {
+  content: "\f105";
+}
+
+@media only screen and (max-width: 1280px) {
+  .post-slide .post-content {
+    padding: 0px 15px 25px 15px;
+  }
+}
+
+/*************chicken gallary****************/
+.title{
+  color:#645139 ;
+  margin: 50px auto;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2em;
+}
+.gallery{
+  text-align: center;
+  columns: 3 300px;
+  column-gap: 30px;
+  width: 1000px;
+  margin: auto;
+}
+
+
+/************card-flip***************/
+.card-gallery{
+  background-color: #343a40;
+  box-shadow: 10px 10px 20px #00000080;
+}
+
+.card-gallery img{
+  width: 400px;
+  height: 250px;
+}
+
+.card-gallery figcaption{
+  background-color: #343a40;
+}
+
+[class^='imghvr-'], [class*=' imghvr-'] {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+    background-color: #343a40;
+    color: #ea6f18;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+}
+
+[class^='imghvr-'] > img, [class*=' imghvr-'] > img {
+    vertical-align: top;
+    max-width: 100%;
+}
+
+[class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption {
+    background-color: #343a40;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ea6f18;
+}
+
+[class^='imghvr-'] figcaption h1, [class^='imghvr-'] figcaption h2, [class^='imghvr-'] figcaption h3, [class^='imghvr-'] figcaption h4, [class^='imghvr-'] figcaption h5, [class^='imghvr-'] figcaption h6, [class*=' imghvr-'] figcaption h1, [class*=' imghvr-'] figcaption h2, [class*=' imghvr-'] figcaption h3, [class*=' imghvr-'] figcaption h4, [class*=' imghvr-'] figcaption h5, [class*=' imghvr-'] figcaption h6 {
+    color: #ea6f18;
+}
+
+[class^='imghvr-'] a, [class*=' imghvr-'] a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+[class^='imghvr-'], [class*=' imghvr-'], [class^='imghvr-']:before,
+[class^='imghvr-']:after, [class*=' imghvr-']:before, [class*=' imghvr-']:after,
+[class^='imghvr-'] *, [class*=' imghvr-'] *, [class^='imghvr-'] *:before,
+[class^='imghvr-'] *:after, [class*=' imghvr-'] *:before, [class*=' imghvr-'] *:after {
+    box-sizing: border-box;
+    transition: all .35s ease;
+}
+
+/* imghvr-shutter-in-*
+   ----------------------------- */
+   [class^='imghvr-shutter-in-']:after, [class^='imghvr-shutter-in-']:before, [class*=' imghvr-shutter-in-']:after, [class*=' imghvr-shutter-in-']:before {
+    background: #5d5d5a;
+    position: absolute;
+    content: '';
+}
+
+[class^='imghvr-shutter-in-']:after, [class*=' imghvr-shutter-in-']:after {
+    top: 0;
+    left: 0;
+}
+
+[class^='imghvr-shutter-in-']:before, [class*=' imghvr-shutter-in-']:before {
+    right: 0;
+    bottom: 0;
+}
+
+[class^='imghvr-shutter-in-'] figcaption, [class*=' imghvr-shutter-in-'] figcaption {
+    opacity: 0;
+    z-index: 1;
+}
+
+[class^='imghvr-shutter-in-']:hover figcaption, [class*=' imghvr-shutter-in-']:hover figcaption {
+    opacity: 1;
+    transition-delay: 0.21s;
+}
+
+
+
+/* imghvr-shutter-in-out-diag-1
+   ----------------------------- */
+.imghvr-shutter-in-out-diag-1:after, .imghvr-shutter-in-out-diag-1:before {
+    width: 200%;
+    height: 200%;
+    transition: all 0.6s ease;
+    opacity: 0.75;
+}
+
+.imghvr-shutter-in-out-diag-1:after {
+    -webkit-transform: skew(-45deg) translateX(-150%);
+            transform: skew(-45deg) translateX(-150%);
+}
+
+.imghvr-shutter-in-out-diag-1:before {
+    -webkit-transform: skew(-45deg) translateX(150%);
+            transform: skew(-45deg) translateX(150%);
+}
+
+.imghvr-shutter-in-out-diag-1:hover:after {
+    -webkit-transform: skew(-45deg) translateX(-50%);
+            transform: skew(-45deg) translateX(-50%);
+}
+
+.imghvr-shutter-in-out-diag-1:hover:before {
+    -webkit-transform: skew(-45deg) translateX(50%);
+            transform: skew(-45deg) translateX(50%);
+}
+
+/**********chicken-feed-section***********/
+.chicken-food{
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.chicken-food h3{
+  font-size: 2em;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
+.border-text{
+  border-width: 0px 0px 0px 5px;
+  border-style: solid;
+  border-color: orange;
+  opacity: 0.7;
+}
+
+/* Modal section  */
+
+.modal-body img{
+  width: 400px;
+  height: 300px;
+}
+
+.img-for-health{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.img-for-pill img{
+  width: 250px;
+  height: 300px;
+  margin-right: 10px;
+}
+
+.dat-style{
+  list-style-type: none;
+}
+
+.dat-style li{
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+li{
+  line-height: 35px;
+}
+
+.footer p{
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: 16px;
+}

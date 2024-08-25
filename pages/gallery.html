@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> systematic livestock information website</title>
+
+    <link rel="stylesheet" href="../css/b.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../vendor/venobox/venobox.css" />
+    <style>
+      body::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      body::-webkit-scrollbar-track {
+        background-color: #e4e4e4;
+        border-radius: 100px;
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background-color: #ea6f18;
+        border-radius: 100px;
+      }
+      .card-columns a{
+        position: relative;
+        transition: 0.5s ease-in-out;
+      }
+      .card-columns a::before{
+        position: absolute;
+        top: 0;
+        content: 'SEE CLOSER ';
+        
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        padding: 30px;
+        background-color: #ea6f1880;
+        opacity: 0;
+        transition: all 1s ease;
+      }
+      .card-columns a:hover::before{
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container shadow-lg">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg px-5 fixed-top bg-light shadow-lg">
+          <div>
+            <h4 id="navbar-brand-text" class="text-success font-weight-bold">
+              systematic livestock information website
+            </h4>
+          </div>
+
+          <button
+            class="navbar-toggler btn-navbar-toggler-style"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              class="navbar-toggler-icon"
+              id="navbar-toggler-icon-style"
+            ></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link smooth-scroll" href="../index.html#home"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#service">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="../pages/gallery.html">gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Animals
+                </a>
+                <div
+                  class="dropdown-menu text-light text-uppercase"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="../pages/chicken.html"
+                    >chicken</a
+                  >
+                  <a class="dropdown-item" href="../pages/pig.html">pig</a>
+                  <a class="dropdown-item" href="../pages/fish.html">fish</a>
+                  <a class="dropdown-item" href="../pages/duck.html">duck</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#customer" class="nav-link">About us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12">
+          <div class="card-columns my-5">
+            <div class="mb-3">
+              <a class="venobox" data-gall="aa" href="../img/chicken5.jpg">
+                <img
+                  src="../img/chicken5.jpg"
+                  class="img-fluid"
+                  alt="image alt"
+                />
+              </a>
+            </div>
+            <div class="mb-3">
+              <a
+                class="venobox"
+                data-gall="aa"
+                href="../img/chickencenter2.jpg"
+              >
+                <img
+                  src="../img/chickencenter2.jpg"
+                  class="img-fluid"
+                  alt="image alt"
+                />
+              </a>
+            </div>
+            <div class="mb-3">
+              <a class="venobox" data-gall="aa" href="../img/fish-home4.webp">
+                <img
+                  src="../img/fish-home4.webp"
+                  class="img-fluid"
+                  alt="image alt"
+                />
+              </a>
+            </div>
+            <div class="mb-3">
+              <a class="venobox" data-gall="aa" href="../img/pighouse6.png">
+                <img
+                  src="../img/pighouse6.png"
+                  class="img-fluid"
+                  alt="image alt"
+                />
+              </a>
+            </div>
+            <div class="mb-3">
+              <a class="venobox" data-gall="aa" href="../img/duckhouse2.jpg">
+                <img
+                  src="../img/duckhouse2.jpg"
+                  class="img-fluid"
+                  alt="image alt"
+                />
+              </a>
+            </div>
+            <div class="mb-3">
+              <a class="venobox" data-gall="aa" href="../img/duckhouse4.jpg">
+                <img
+                  src="../img/duckhouse4.jpg"
+                  class="img-fluid"
+                  alt="image alt"
+                />
+              </a>
+            </div>
+            <div class="mb-3">
+              <a class="venobox" data-gall="aa" href="../img/chicken4.jpg">
+                <img
+                  src="../img/chicken4.jpg"
+                  class="img-fluid"
+                  alt="image alt"
+                />
+              </a>
+            </div>
+            <div class="mb-3">
+              <a class="venobox" data-gall="aa" href="../img/yit2.jpg">
+                <img src="../img/yit2.jpg" class="img-fluid" alt="image alt" />
+              </a>
+            </div>
+            <div class="mb-3">
+              <a class="venobox" data-gall="aa" href="../img/pig-home2.jpg">
+                <img
+                  src="../img/pig-home2.jpg"
+                  class="img-fluid"
+                  alt="image alt"
+                />
+              </a>
+            </div>
+            <div class="mb-3">
+              <a class="venobox" data-gall="aa" href="../img/pig-home4.jpg">
+                <img
+                  src="../img/pig-home4.jpg"
+                  class="img-fluid"
+                  alt="image alt"
+                />
+              </a>
+            </div>
+            <div class="mb-3">
+              <a class="venobox" data-gall="aa" href="../img/pig-cover2.jpg">
+                <img
+                  src="../img/pig-cover2.jpg"
+                  class="img-fluid"
+                  alt="image alt"
+                />
+              </a>
+            </div>
+            <div class="mb-3">
+              <a
+                class="venobox"
+                data-gall="aa"
+                href="../img/fishtype2(ngakhu).png"
+              >
+                <img
+                  src="../img/fishtype2(ngakhu).png"
+                  class="img-fluid"
+                  alt="image alt"
+                />
+              </a>
+            </div>
+            <div class="mb-3">
+              <a
+                class="venobox"
+                data-gall="aa"
+                href="../img/fishtype5(ngayintkyar).png"
+              >
+                <img
+                  src="../img/fishtype5(ngayintkyar).png"
+                  class="img-fluid"
+                  alt="image alt"
+                />
+              </a>
+            </div>
+            <div class="mb-3">
+                <a
+                  class="venobox"
+                  data-gall="aa"
+                  href="../img/tainnyein1.jpg"
+                >
+                  <img
+                    src="../img/tainnyein1.jpg"
+                    class="img-fluid"
+                    alt="image alt"
+                  />
+                </a>
+              </div>
+              <div class="mb-3">
+                <a
+                  class="venobox"
+                  data-gall="aa"
+                  href="../img/canvas.jpg"
+                >
+                  <img
+                    src="../img/canvas.jpg"
+                    class="img-fluid"
+                    alt="image alt"
+                  />
+                </a>
+              </div>
+              <div class="mb-3">
+                <a
+                  class="venobox"
+                  data-gall="aa"
+                  href="../img/mallard.jpg"
+                >
+                  <img
+                    src="../img/mallard.jpg"
+                    class="img-fluid"
+                    alt="image alt"
+                  />
+                </a>
+              </div>
+              <div class="mb-3">
+                <a
+                  class="venobox"
+                  data-gall="aa"
+                  href="../img/chickencenter4.jpg"
+                >
+                  <img
+                    src="../img/chickencenter4.jpg"
+                    class="img-fluid"
+                    alt="image alt"
+                  />
+                </a>
+              </div>
+              <div class="mb-3">
+                <a
+                  class="venobox"
+                  data-gall="aa"
+                  href="../img/pigafrica.jpg"
+                >
+                  <img
+                    src="../img/pigafrica.jpg"
+                    class="img-fluid"
+                    alt="image alt"
+                  />
+                </a>
+              </div>
+              <div class="mb-3">
+                <a
+                  class="venobox"
+                  data-gall="aa"
+                  href="../img/fishhouse2.jpg"
+                >
+                  <img
+                    src="../img/fishhouse2.jpg"
+                    class="img-fluid"
+                    alt="image alt"
+                  />
+                </a>
+              </div>
+              <div class="mb-3">
+                <a
+                  class="venobox"
+                  data-gall="aa"
+                  href="../img/fishhouse1.jpg"
+                >
+                  <img
+                    src="../img/fishhouse1.jpg"
+                    class="img-fluid"
+                    alt="image alt"
+                  />
+                </a>
+              </div>
+              <div class="mb-3">
+                <a
+                  class="venobox"
+                  data-gall="aa"
+                  href="../img/pigabdomen.jpg"
+                >
+                  <img
+                    src="../img/pigabdomen.jpg"
+                    class="img-fluid"
+                    alt="image alt"
+                  />
+                </a>
+              </div>
+              <div class="mb-3">
+                <a
+                  class="venobox"
+                  data-gall="aa"
+                  href="../img/duckhealth1.jpg"
+                >
+                  <img
+                    src="../img/duckhealth1.jpg"
+                    class="img-fluid"
+                    alt="image alt"
+                  />
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../vendor/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../vendor/venobox/venobox.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".venobox").venobox({
+          framewidth: "600px", // default: ''
+          frameheight: "auto", // default: ''
+          border: "2", // default: '0'
+          bgcolor: "#ffffff60", // default: '#fff'
+          titleattr: "data-title", // default: 'title'
+          numeratio: true, // default: false
+          infinigall: true, // default: false
+          share: ["facebook", "twitter", "download"], // default: []
+        });
+      });
+    </script>
+  </body>
+</html>
